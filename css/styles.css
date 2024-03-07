@@ -236,6 +236,7 @@ img {
   justify-content: space-between;
   padding-top: 72px;
   gap: 24px;
+  width: calc((100% - 72) / 4);
 }
 
 .team-members {
@@ -257,6 +258,7 @@ img {
   justify-content: space-between;
   gap: 24px;
   padding-top: 72px;
+  width: calc((100% - 120) / 6);
 }
 
 .card-content-tm {
