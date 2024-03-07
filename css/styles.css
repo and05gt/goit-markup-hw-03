@@ -45,8 +45,6 @@ img {
   background: #fff;
   border-bottom: 1px solid #e7e9fc;
   margin: 0;
-  padding-left: 156px;
-  padding-right: 156px;
 }
 
 .page-header .container {
@@ -175,12 +173,7 @@ img {
   display: flex;
   flex-direction: row;
 }
-/*
-.site-nav .nav-menu {
-  display: flex;
-  flex-direction: row;
-}
-*/
+
 .nav-menu {
   display: flex;
   flex-direction: row;
