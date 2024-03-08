@@ -60,16 +60,14 @@ img {
   display: block;
 }
 
-.section .container {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  margin: 0 auto;
-}
-
 .hero-image {
   background: #2e2f42;
   height: 600px;
   margin-top: 0;
+}
+
+.hero-image .container{
+  padding: 188px 0;
 }
 
 .page-title {
@@ -80,14 +78,22 @@ img {
   color: #fff;
   letter-spacing: 0.02em;
   display: block;
-  padding-top: 68px;
-  padding-right: 316px;
-  padding-left: 316px;
-  padding-bottom: 48px;
-  margin: 0;
+  max-width: 496px;
 }
 
-.container .features-list {
+.container .page-title {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 48px;  
+}
+
+.features-section .container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin: 0 auto;
+}
+
+.features-list {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -95,13 +101,13 @@ img {
   gap: 24px;
 }
 
-.features-list .features-list-container {
+.features-list-container {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
   gap: 8px;
-  width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 
 .section-title {
@@ -112,6 +118,7 @@ img {
   color: #2e2f42;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .third-title {
@@ -120,6 +127,8 @@ img {
   line-height: 1.2;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  text-align: center;
 }
 
 .logo {
@@ -156,13 +165,15 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   border-radius: 4px;
-  padding: 16px 32px;
   height: 56px;
   display: block;
-  margin-top: 0;
-  margin-bottom: 188px;
-  margin-right: auto;
-  margin-left: auto;
+  min-width: 169px;
+  border: none;
+}
+
+.container .btn {
+  display: block;
+  margin: 0 auto;
 }
 
 .btn:hover, .btn:focus {
@@ -177,7 +188,7 @@ img {
 .nav-menu {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
   gap: 40px;
   padding: 24px 0;
@@ -229,34 +240,40 @@ img {
   background: #f4f4fd;
 }
 
-.container .team-list {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-  padding-top: 72px;
-  gap: 24px;
-  width: calc((100% - 72) / 4);
+.team-section .container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin: 0 auto;
 }
 
-.team-members {
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-member {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 32px;
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
   background-color: #FFF;
+  gap: 24px;
+  width: calc((100% - 72) / 4);
 }
 
-.container .portfolio-list {
+.portfolio-section .container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin: 0 auto;
+}
+
+.portfolio-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
   padding-top: 72px;
   width: calc((100% - 120) / 6);
 }
@@ -267,11 +284,16 @@ img {
   justify-content: center;
   flex-direction: column;
   gap: 8px;
-  padding: 0 16px;
+  padding: 32px 0;
+}
+
+.card-content-tm .third-title {
+  text-align: center;
 }
 
 .project-card {
   display: block;
+  width: calc((100% - 48px) / 3);
 }
 
 .card-content {
@@ -280,12 +302,9 @@ img {
   justify-content: center;
   flex-direction: column;
   gap: 8px;
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
+  border: 1px solid #e7e9fc;
+  border-top: none;
   padding: 32px 16px;
-  width: 360px;
-  height: 120px;
 }
 
 .page-footer {
@@ -303,20 +322,20 @@ img {
 
 .page-footer .container {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  margin: 0 auto;
-}
-
-.footer-section {
-  display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  margin: 0 auto;
   padding: 100px 0;
-  margin: 0;
-  width: 264px;
+}
+
+.page-footer .logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.page-footer .section-text {
+  max-width: 264px;
 }
 
 .section-text {
