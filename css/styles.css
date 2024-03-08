@@ -181,7 +181,7 @@ img {
   justify-content: flex-start;
   gap: 40px;
   padding: 24px 0;
-  margin-right: 332px;
+  margin-right: auto;
 }
 
 .nav-menu .link {
