@@ -313,7 +313,7 @@ img {
   margin: 0 auto;
 }
 
-.page-footer a {
+a.page-footer {
   display: inline-block;
   margin-bottom: 16px;
 }
