@@ -271,7 +271,7 @@ img {
   padding: 32px 0;
 }
 
-.card-content-tm .third-title {
+.card-content-tm p {
   text-align: center;
 }
 
@@ -313,7 +313,7 @@ img {
   margin: 0 auto;
 }
 
-.page-footer a.logo {
+.page-footer a {
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -329,6 +329,14 @@ img {
 }
 
 .visually-hidden {
-  position: fixed;
-  transform: scale(0);
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  border: 0;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
 }
