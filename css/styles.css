@@ -136,10 +136,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
+  display: inline-block;
   gap: 0px;
   width: 115px;
   height: 24px;
@@ -300,6 +297,7 @@ img {
 .page-footer .logo {
   color: #4d5ae5;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .page-footer .web-logo {
@@ -312,10 +310,6 @@ img {
   align-items: flex-start;
   justify-content: flex-start;
   margin: 0 auto;
-}
-
-.page-footer a {
-  display: inline-block;
 }
 
 .page-footer .section-text {
