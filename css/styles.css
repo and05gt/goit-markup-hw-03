@@ -297,14 +297,16 @@ img {
 .page-footer .logo {
   color: #4d5ae5;
   margin-bottom: 16px;
-}
-
-.container .logo {
   display: inline-block;
 }
 
 .page-footer .web-logo {
   color: #f4f4fd;
+  display: inline-block;
+}
+
+.page-footer a {
+  display: inline-block;
 }
 
 .page-footer .container {
