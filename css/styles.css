@@ -313,7 +313,7 @@ img {
   margin: 0 auto;
 }
 
-a.page-footer {
+.page-footer .logo {
   display: inline-block;
   margin-bottom: 16px;
 }
