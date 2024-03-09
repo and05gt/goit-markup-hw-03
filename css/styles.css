@@ -299,6 +299,8 @@ img {
 
 .page-footer .logo {
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .page-footer .web-logo {
@@ -311,11 +313,6 @@ img {
   align-items: flex-start;
   justify-content: flex-start;
   margin: 0 auto;
-}
-
-.page-footer .logo {
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .page-footer .section-text {
