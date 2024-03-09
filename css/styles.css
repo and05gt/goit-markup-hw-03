@@ -55,18 +55,20 @@ img {
   margin: 0 auto;
 }
 
+.section {
+  padding: 120px 0;
+  margin: 0 auto;
+}
+
 .section .page-title {
   margin: 0;
   display: block;
 }
 
-.hero-image {
+.section-hero {
   background: #2e2f42;
   height: 600px;
   margin-top: 0;
-}
-
-.hero-image .container{
   padding: 188px 0;
 }
 
@@ -85,12 +87,6 @@ img {
   display: block;
   margin: 0 auto;
   margin-bottom: 48px;  
-}
-
-.features-section .container {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  margin: 0 auto;
 }
 
 .features-list {
@@ -183,6 +179,7 @@ img {
 .site-nav {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .nav-menu {
@@ -191,7 +188,6 @@ img {
   align-items: center;
   justify-content: flex-start;
   gap: 40px;
-  padding: 24px 0;
   margin-right: auto;
 }
 
@@ -200,6 +196,7 @@ img {
   color: #2e2f42;
   text-decoration: none;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .nav-menu .link:hover, .nav-menu .link:focus {
@@ -240,12 +237,6 @@ img {
   background: #f4f4fd;
 }
 
-.team-section .container {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  margin: 0 auto;
-}
-
 .team-list {
   display: flex;
   gap: 24px;
@@ -262,19 +253,12 @@ img {
   width: calc((100% - 72) / 4);
 }
 
-.portfolio-section .container {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  margin: 0 auto;
-}
-
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   column-gap: 24px;
   row-gap: 48px;
-  padding-top: 72px;
   width: calc((100% - 120) / 6);
 }
 
@@ -310,6 +294,7 @@ img {
 .page-footer {
   background: #2e2f42;
   color: #f4f4fd;
+  padding: 100px 0;
 }
 
 .page-footer .logo {
@@ -326,10 +311,9 @@ img {
   align-items: flex-start;
   justify-content: flex-start;
   margin: 0 auto;
-  padding: 100px 0;
 }
 
-.page-footer .logo {
+.page-footer a.logo {
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -344,6 +328,7 @@ img {
   margin: 0;
 }
 
-.features-section .section-title {
-  display: none;
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
 }
