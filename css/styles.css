@@ -299,7 +299,6 @@ img {
 
 .page-footer .logo {
   color: #4d5ae5;
-  display: inline-block;
   margin-bottom: 16px;
 }
 
@@ -313,6 +312,10 @@ img {
   align-items: flex-start;
   justify-content: flex-start;
   margin: 0 auto;
+}
+
+.page-footer a {
+  display: inline-block;
 }
 
 .page-footer .section-text {
