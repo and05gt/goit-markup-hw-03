@@ -297,6 +297,9 @@ img {
 .page-footer .logo {
   color: #4d5ae5;
   margin-bottom: 16px;
+}
+
+a.page-footer {
   display: inline-block;
 }
 
