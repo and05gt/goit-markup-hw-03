@@ -56,6 +56,7 @@ img {
 
 .page-header .logo {
   padding: 24px 0;
+  margin-right: 76px;
 }
 
 .section {
@@ -170,7 +171,6 @@ img {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 72px;
 }
 
 .nav-menu {
@@ -187,7 +187,7 @@ img {
   color: #2e2f42;
   text-decoration: none;
   letter-spacing: 0.02em;
-  padding: 0;
+  padding: 24px 0;
 }
 
 .nav-menu .link:hover, .nav-menu .link:focus {
